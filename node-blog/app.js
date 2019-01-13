@@ -42,7 +42,7 @@ app.get('/post/:id', (req, res) => {
 
     const post = posts.filter((post) => {
         return post.id == req.params.id
-    })[]
+    })
 
 
     res.render('post', {
